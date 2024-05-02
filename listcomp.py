@@ -21,3 +21,11 @@ print(names[4])
 del names[4]
 print(names)
 
+motocycles = ['honda','suzuki','yamaha','tvs']
+popped_bike = motocycles.pop()
+print(popped_bike)
+print(motocycles)
+print(f"The last bike i owned was"+" "+popped_bike.title())
+first_owned = motocycles.pop(0)
+print(f"The first owned bike was"+" "+first_owned)
+
